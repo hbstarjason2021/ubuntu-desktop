@@ -65,10 +65,10 @@ jobs:
     #  with:
     #    name: okteto-pipeline
         
-    #- name: "触发流程"
-    #  uses: okteto/pipeline@master
-    #  with:
-    #    name: okteto-pipeline
+    - name: "触发流程"
+      uses: okteto/pipeline@master
+      with:
+        name: ubuntu-desktop
         
     - name: "上传至okteto"
       uses: okteto/push@master
